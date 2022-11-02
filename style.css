@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Montserrat:wght@100&family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+a{
+  color:#010b27;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(219, 24, 24);
+}
+body {
+  background-color: #e7eff3;
+  font-family : Arial, Helvetica, sans-serif;
+  color: #2a3552;
+  font-size: 17px;
+  line-height: 1;
+}
+.button_grey{
+  background-color: #a2cdf8;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+.card_white{
+  background: white;
+  padding: 40px;
+  border: 1px solid rgba(181, 179, 179, 0.836);
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  margin: 20px 0px;
+}
+h1{
+  font-family: 'Arimo', sans-serif;
+  font-size: 32px;
+  color: #012fb0;
+
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #012fb0;
+
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #012fb0;
+}
+.image_circle{
+  border-radius: 50%;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-align: center;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+p {
+  padding: 30px 20px;
+}
