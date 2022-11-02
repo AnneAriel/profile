@@ -38,6 +38,12 @@ body {
   padding: 15px 20px;
   border-radius: 4px;
 }
+.button_grey:hover{
+  background-color: #a1a5a9;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
 .container {
   width: 600px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
@@ -55,13 +61,12 @@ h1{
   font-family: 'Arimo', sans-serif;
   font-size: 32px;
   color: #012fb0;
-
 }
+
 h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   color: #012fb0;
-
 }
 h3{
   font-family: 'Montserrat', sans-serif;
